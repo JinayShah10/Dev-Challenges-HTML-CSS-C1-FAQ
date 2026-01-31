@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+   @media screen and (max-width: 640px) {
+  main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+}
+
